@@ -41,6 +41,10 @@
       "relation": "oneToOne",
       "target": "api::product.product",
       "inversedBy": "order"
+    },
+    "total_amount": {
+      "type": "decimal",
+      "default": 0
     }
   }
 }
